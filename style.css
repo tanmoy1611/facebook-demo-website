@@ -1,0 +1,237 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif; 
+}
+.header{
+    background-color: #3b5998;
+    overflow: hidden;
+    padding: 8px;
+    
+}
+.container
+{
+    width: 65%;
+    margin: auto;
+    max-width: 1000px
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.log-in-area{
+    width: 60%;
+    float: left;
+    color: white;
+}
+.logo-area img{
+width: 200px;
+
+}
+.log-in-area form{
+    float:right;
+}
+.log-in-area label,input{
+    display: block;
+}
+.log-in-area .email,.password,.login{
+    float: left;
+    margin-right: 5px;
+} 
+.log-in-area label{
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.log-in-area .login{
+    margin right: 0;
+}
+.log-in-area .email input[type="text"],input[type="password"]
+{
+border: 1px solid black;
+font-size: 14px;
+font-weight: 300;
+padding: 2px 3px;
+}
+.log-in-area .password a{
+    text-decoration: none; 
+    color: #fff;
+    font-size: 12px;
+}
+.log-in-area .password a:hover{
+    text-decoration: underline;
+   
+}
+.log-in-area input[type="button"] {
+    background-color: #4267b2; 
+    border: 1px solid #29487d;  
+    color: #fff;   
+    padding: 3px 8px;
+    font-weight: 400px;
+    margin-top: 30px;
+}
+/* End head area */
+
+/* signup part */
+.signup-area{
+    overflow: hidden;
+    padding: 25px;
+    background: linear-gradient(#ffffff,#EBEDF0);
+}
+.left-area{
+    width: 55%;
+    float: left;
+
+}
+.left-area p{
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: 800;
+    width:87%;
+}
+.left-area img{
+    width: 86%;
+    height: 200px;
+    background-color: white;
+}
+.right-area{
+    width: 45%;
+    float: left;
+}
+.right-area h2{
+    font-size: 33px;
+    color: #333;
+    margin: 0;
+}
+.right-area h4{
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.right-area form input[type="text"],input[type="newpassword"]
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+.full-name{
+  overflow: hidden;
+}
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+.surname{
+    width: 48%;
+    float: left;
+}
+.birthday{
+  overflow: hidden;
+}
+
+.birthday h4{
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+.birth-date{
+overflow: hidden;
+float: left;
+margin-right: 10px;
+}
+.birthday .birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+    border-radius: 2px;
+}
+ .birth-link
+{
+    float: left;
+    width: 245px;
+    display: block;
+    font-size: 13px;
+    line-height: 1.2;
+    
+    font-weight: 600;
+    color: #365899;
+    
+} 
+.gender
+{
+    overflow: hidden;
+    margin-top: 5px;
+    /* border: 1px solid red; */
+}
+.gender label {
+    
+    
+    float: left;
+    font-size:15px ;
+    font-weight: 600;
+    line-height: 1.2;
+   color: #1d2129;
+   
+   
+}
+.gender input{
+    float: left;
+   
+}
+.text-box{
+margin-bottom: 20px;
+}
+.text-box p{
+    font-size: 15px;
+    color: #777;
+    width: 80%;
+}
+.text-box a{
+    text-decoration: none;
+    color: #365899;
+}
+.text-box a:hover{
+    text-decoration: underline;
+}
+.sign-up
+{
+margin-bottom: 5px;
+}
+.sign-up input{
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 14px ;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sign-up input:hover{
+    background: linear-gradient(#578843,#67ae55);
+    cursor: pointer;
+}
+.business{
+    color: #666;
+    font-weight: 600;
+}
+.business a{
+    text-decoration: none;
+    color: #365899;
+}
+.business a:hover{
+ text-decoration: underline;
+
+}
